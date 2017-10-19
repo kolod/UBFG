@@ -7,3 +7,6 @@ UBFG
 Makefile
 moc_*
 ui_*.h
+build-font-*-Release
+build-font-*-Debug
+font.pro.user.*

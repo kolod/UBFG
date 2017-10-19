@@ -67,7 +67,7 @@
              </sizepolicy>
             </property>
             <property name="currentIndex">
-             <number>192</number>
+             <number>181</number>
             </property>
             <property name="sizeAdjustPolicy">
              <enum>QComboBox::AdjustToContents</enum>
@@ -77,7 +77,7 @@
             </property>
             <property name="currentFont">
              <font>
-              <family>DejaVu Sans</family>
+              <family>MS Shell Dlg 2</family>
              </font>
             </property>
            </widget>
@@ -1075,6 +1075,11 @@
               <string>BMFont</string>
              </property>
             </item>
+            <item>
+             <property name="text">
+              <string>C++ code</string>
+             </property>
+            </item>
            </widget>
           </item>
          </layout>
@@ -1091,8 +1096,13 @@
           <item>
            <widget class="QComboBox" name="bitDepth">
             <property name="currentIndex">
-             <number>2</number>
+             <number>0</number>
             </property>
+            <item>
+             <property name="text">
+              <string>1 bit</string>
+             </property>
+            </item>
             <item>
              <property name="text">
               <string>8 bit</string>
@@ -1328,7 +1338,7 @@
            <x>0</x>
            <y>0</y>
            <width>565</width>
-           <height>675</height>
+           <height>678</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_3">
